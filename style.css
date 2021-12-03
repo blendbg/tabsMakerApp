@@ -1,0 +1,36 @@
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+#tabs {
+    border: 1px solid black;
+}
+#tabs ul li {
+    list-style-type: none;
+    display: inline;
+}
+.tablinks {
+    border-radius: 5px;
+    background-color: greenyellow;
+    border: 1px black solid;
+    height: 30px;
+    width: 150px;
+    margin-top: 2px;
+    animation: 3s;
+    
+}
+#buttonUl {
+    background-color: rgb(235, 228, 228) ;
+    margin-left: 10px;
+    height: 35px;
+    border: 1px solid black;
+}
+.tablinks:hover {
+    background-color: green;
+}
+
+.tablinks:active {
+    background-color: green;
+}
